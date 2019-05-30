@@ -2,7 +2,7 @@
 
 A mobile application is designed for the customer of insurance company. 
 
-### Screenshots
+#### Screenshots:
 
 <table>
     <tr>
