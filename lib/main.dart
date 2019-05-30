@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:wing_fyp/pages/AwardPage.dart';
 import 'package:wing_fyp/pages/BodyStatusPage.dart';
 import 'package:wing_fyp/pages/FitnessPage.dart';
+import 'package:wing_fyp/pages/HealthEvaluationPage.dart';
 import 'package:wing_fyp/pages/OnlineDoctor.dart';
 import 'package:wing_fyp/pages/PlanetsPage.dart';
 import 'package:wing_fyp/pages/RecordFitness.dart';
@@ -27,7 +29,9 @@ class MyApp extends StatelessWidget {
         '/bodyStatus': (context) => BodyStatusPage(),
         '/recordFitness': (context) => RecordFitnessPage(),
         '/onlineDoctor': (context) => OnlineDoctorPage(),
-        '/splash': (context) => SplashPage()
+        '/splash': (context) => SplashPage(),
+        '/healthEvaluation': (context) => HealthEvaluationPage(),
+        '/award': (context) => AwardPage()
       },
     );
   }

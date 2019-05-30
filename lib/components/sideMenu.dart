@@ -34,7 +34,7 @@ class SideMenu extends StatelessWidget {
                 width: 17,
               ),
               title: Text('健康評估'),
-              onTap: () {},
+              onTap: () => Navigator.pushNamed(context, '/healthEvaluation'),
             ),
             ListTile(
               trailing: Image.asset(
@@ -42,7 +42,7 @@ class SideMenu extends StatelessWidget {
                 width: 17,
               ),
               title: Text('獎賞'),
-              onTap: () {},
+              onTap: () => Navigator.pushNamed(context, '/award'),
             ),
             ListTile(
               trailing: Image.asset(
